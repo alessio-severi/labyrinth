@@ -2,9 +2,18 @@
 
 Generation of a *perfect maze* using iterative Depth-First Search (DFS) with explicit backtracking, developed in Python.
 
-For a full description of the algorithm and its design choices, read the article on chorax.it: [Programmare in Python: 2. Labirinto](https://chorax.it/codice-e-creativita/programmare-in-python-2-labirinto/)
+For a full description of the algorithm and its design choices, read the article on
+chorax.it: [Programmare in Python: 2. Labirinto](https://chorax.it/codice-e-creativita/programmare-in-python-2-labirinto/)
 
 ▶ [Run on Replit](https://replit.com/@alessioseveri27/Labirinto)
+
+## Result
+
+<div align="center">
+  <img src="result/02.PNG" width="75%" alt="Maze result"/>
+  <br><br>
+  <img src="result/01.PNG" width="75%" alt="Maze result"/>
+</div>
 
 ## How it works
 
