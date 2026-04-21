@@ -7,6 +7,13 @@ chorax.it: [Programmare in Python: 2. Labirinto](https://chorax.it/codice-e-crea
 
 ▶ [Run on Replit](https://replit.com/@alessioseveri27/Labirinto)
 
+
+## How it works
+
+The maze is generated cell by cell using an iterative DFS with explicit backtracking. Each cell selects an available direction, opens the shared wall and moves forward. When no directions are available, the algorithm backtracks to the previous cell until all cells have been visited.
+
+Cells are identified by complex coordinates (x + y·j). Each cell contains: visit id, position, walls and possible directions, where walls are ordered [East, North, West, South].
+
 ## Result
 
 <div align="center">
@@ -14,12 +21,6 @@ chorax.it: [Programmare in Python: 2. Labirinto](https://chorax.it/codice-e-crea
   <br><br>
   <img src="result/01.png" width="75%" alt="Maze result"/>
 </div>
-
-## How it works
-
-The maze is generated cell by cell using an iterative DFS with explicit backtracking. Each cell selects an available direction, opens the shared wall and moves forward. When no directions are available, the algorithm backtracks to the previous cell until all cells have been visited.
-
-Cells are identified by complex coordinates (x + y·j). Each cell contains: visit id, position, walls and possible directions, where walls are ordered [East, North, West, South].
 
 ## Requirements
 
