@@ -24,7 +24,7 @@ Cells are identified by complex coordinates (x + y·j). Each cell contains: visi
 
 ## Requirements
 
-- Python 3.10+
+Python 3.10+
 
 ```
 pip install matplotlib
